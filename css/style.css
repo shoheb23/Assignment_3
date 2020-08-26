@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Staatliches&display=swap');
+
+body {
+
+
+	font-family: 'Poiret One', cursive;
+	font-family: 'Staatliches', cursive;
+	
+}
+
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/*header Section*/
+
+header{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background-color: #b9e9ec54;
+	position: fixed;
+	top: 0;
+	background: #b9e9ec54; 
+	
+}
+
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+	
+}
+
+
+.logo{
+	width: 30%;
+	
+	float: left;
+
+}
+
+.logo img {
+	display: block;
+	width: 70px;
+}
+
+
+
+.menu{
+
+	width: 70%;
+	float: left;
+}
+
+nav ul{
+
+	list-style: none;
+}
+
+nav ul li{
+
+	display: inline-block;
+
+	margin: 10px 30px;
+}
+
+nav ul li a{
+
+	font-size: 25px;
+
+	text-decoration: none;
+
+	background-color: #f9b4f8;
+
+	padding: 4px 27px;
+	transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+}
+
+
+nav ul li a:hover{
+	box-shadow:  2px 3px 4px grey;
+	 
+}
+
+
+
+/*Banner Section*/
+
+
+.banner{
+	width: 100%;
+	float: left;
+
+}
+
+
+
+.banner-one{
+	width: 40%;
+	float: left;
+	background-color: skyblue;
+	height: 500px;
+}
+
+
+
+.banner-two{
+
+	width: 60%;
+	float: left;
+	background-color: orange;
+	height: 500px;
+}
+
+.banner-content{
+	width: 50%;
+	float: left;
+	background-color: green;
+	height: 500px;
+
+}
+
+.banner-image{
+	width: 50%;
+	float: left;
+	background-color: orange;
+	height: 500px;
+}
+
+
+/*Gallery Section*/
+
+
+.gallery{
+	width: 100%;
+	float: left;
+
+}
+
+
+
+.gallery-one{
+	
+	width: 33.33%;
+	float: left;
+	
+}
+
+.image-one{
+	overflow: hidden;
+
+}
+
+.gallery-two{
+	width: 33.33%;
+	float: left;
+	background-color: red;
+	height: 500px;
+	font-family: 'Poiret One', cursive;	
+    color: #f9f9f9;
+    text-align: -webkit-center;
+	font-size: 32px;
+	
+}
+
+
+.gallery-three{
+	width: 33.33%;
+	float: left;
+	background-color: black;
+	height: 600px;
+	font-family: 'Poiret One', cursive;	
+    color: #f9f9f9;
+    text-align: -webkit-center;
+	font-size: 32px;
+}
+
+
+
+.portfolio{
+	width: 100%;
+	float: left;
+}
+
+
+
+.portfolio-one{
+	
+	width: 25%;
+	float: left;
+	background-color: maroon;
+	height: 600px
+}
+
+
+.portfolio-two{
+	width: 25%;
+	float: left;
+	background-color: blue;
+	height: 600px
+	
+}
+
+
+.portfolio-three{
+	width: 25%;
+	float: left;
+	background-color: orange;
+	height: 600px
+}
+
+.portfolio-four{
+	width: 25%;
+	float: left;
+	background-color: grey;
+	height: 600px
+}
+
+
+.footer-one{
+	width: 40%;
+	float: left;
+}
+
+
+
+
+.footer-two{
+	width: 60%;
+	float: left;
+	
+}
+
+.social-icon{
+
+}
+
+.social-icon ul{
+	
+	list-style: none;
+}
+
+.social-icon ul li{
+	
+	display: inline-block;
+		
+	margin: 10px 20px;
+}
+
+.social-icon ul li a{
+	
+	background-color: #f9b4f87a;
+		
+	color: #800000;
+		
+	padding: 1px 9px;
+}
+
+
+.fa.fa-facebook{
+	color: #4267B2;
+
+}
+
+.fa.fa-instagram{
+	color: #4267B2;
+
+
+}
+
+.fa.fa-linkedin{
+	color: #4267B2;
+
+	
+}
+
+.fa.fa-rss{
+	color: #4267B2;
+
+	
+}
